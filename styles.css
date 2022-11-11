@@ -91,8 +91,8 @@ i {
 }
 
 .square {
-    width: 12vw;
-    height: 25vh;
+    width: 100px;
+    height: 100px;
     background-color: var(--main-color);
     position: absolute;
     z-index: 1;
@@ -109,8 +109,8 @@ i {
 }
 
 .dot {
-    width: 2vw;
-    height: 4vh;
+    width: 20px;
+    height: 20px;
     background-color: var(--secondary-color);
 }
 
@@ -310,8 +310,8 @@ color: var(--primary-text-color);
 }
 
 .author img {
-    width: 8vw;
-    height: 18vh;
+    width: 100px;
+    height: 100px;
 }
 
 #team {
@@ -540,7 +540,7 @@ color: var(--primary-text-color);
 
 /*Responsivo*/
 
-@media(max-width: 500px){
+@media(max-width: 770px){
     body{
         overflow-x: hidden;
     }
@@ -565,11 +565,11 @@ color: var(--primary-text-color);
     }
 
     .banner h2 {
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
 
     .banner p {
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 
     .btn {
